@@ -13,7 +13,7 @@ public partial class MinhContext : DbContext
     public MinhContext(DbContextOptions<MinhContext> options)
         : base(options)
     {
-    }
+    }//
 
     public virtual DbSet<Chitietdonhang> Chitietdonhangs { get; set; }
 
